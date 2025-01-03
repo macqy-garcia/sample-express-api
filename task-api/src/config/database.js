@@ -7,8 +7,7 @@ const connectDB = async () => {
 		// For local MongoDB: 'mongodb://localhost:27017/your_database'
 		// For MongoDB Atlas: 'mongodb+srv://username:password@cluster.mongodb.net/your_database'
 		const mongoURI =
-			process.env.MONGODB_URI ||
-			'mongodb+srv://macqy:eYmWHic2D7ikmVC@cluster0.g6cv1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+			process.env.MONGODB_URI || 'paste here mongodb uri from cloud';
 
 		const conn = await mongoose.connect(mongoURI, {
 			// These are included by default in Mongoose 6+
