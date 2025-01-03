@@ -1,0 +1,20 @@
+{
+	"name": "user-api",
+	"version": "1.0.0",
+	"description": "backend for user service",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"keywords": [
+		"user",
+		"api"
+	],
+	"author": "Michael Judas",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.2",
+		"nodemon": "^3.1.9"
+	}
+}
